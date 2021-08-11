@@ -55,33 +55,6 @@ wugui.begin_fill()
 wugui.circle(5)
 wugui.end_fill()
 
-# mouth
-# wugui.penup()
-# wugui.goto(-50,100)
-# wugui.pendown()
-# wugui.right(100)
-# wugui.circle(80, 90)
-'''
-wugui.penup()
-wugui.goto(-50,100)
-wugui.pendown()
-# wugui.seth(270)
-# wugui.color("black", "brown")
-# wugui.begin_fill()
-# wugui.circle(50, 180)
-# wugui.left(90)
-# wugui.forward(97)
-# wugui.end_fill()
-wugui.seth(290)
-wugui.color("black", "brown")
-wugui.begin_fill()
-wugui.circle(50, 180)
-wugui.left(90)
-wugui.forward(97)
-wugui.end_fill()
-'''
-
-
 # pants
 wugui.penup()
 wugui.goto(-100,0)
@@ -191,20 +164,6 @@ wugui.seth(90)
 wugui.forward(50)
 wugui.end_fill()
 
-# wugui.forward(200)
-# wugui.circle(-10, 180)
-# wugui.forward(15)
-# wugui.seth(80)
-# wugui.forward(15)
-# wugui.circle(-10, 180)
-# wugui.forward(15)
-# wugui.seth(85)
-# wugui.forward(15)
-# wugui.circle(-10, 180)
-# wugui.seth(-60)
-# wugui.forward(170)
-# wugui.end_fill()
-
 # right hand
 wugui.penup()
 wugui.goto(100,60)
@@ -219,20 +178,12 @@ wugui.seth(90)
 wugui.forward(50)
 wugui.end_fill()
 
-#
-# wugui.penup()
-# wugui.goto(0,-100)
-# wugui.pendown()
-# wugui.forward(30)
-
 # logo 
 colors = ["red", "orange", "yellow", "green", "grey", "purple", "black"]
 
 wugui.penup()
 wugui.goto(-5,-20)
 wugui.pendown()
-# wugui.color("brown")
-# wugui.begin_fill()
 
 for each_color in colors:
     angle = 360 / len(colors)
@@ -290,13 +241,6 @@ wugui.end_fill()
 wugui.penup()
 wugui.goto(-50,100)
 wugui.pendown()
-# wugui.seth(270)
-# wugui.color("black", "brown")
-# wugui.begin_fill()
-# wugui.circle(50, 180)
-# wugui.left(90)
-# wugui.forward(97)
-# wugui.end_fill()
 wugui.seth(290)
 wugui.color("black", "brown")
 wugui.begin_fill()
@@ -306,58 +250,15 @@ wugui.forward(97)
 wugui.end_fill()
 
 wugui.penup()
-# wugui.goto(80, -200)
-## wugui.goto(60, -300)
 wugui.goto(-300, -400)
 
 wugui.color("blue")
 wugui.pendown()
-## wugui.write('Happy Birthday  John! \n~ From Max, Justin, Yi', font=("Bradley Hand ITC", 50, "bold"))
 wugui.write('Happy Birthday Sweetheart ! \n~ Love Aunt', font=("Bradley Hand ITC", 45, "bold"))
 
 wugui.exitonclick()            
 
-# Candles
-# wugui.penup()
-# wugui.goto(50,-150)
-# wugui.color("red")
-# wugui.left(120)
-# wugui.pendown()
-# wugui.forward(20)
 
-# wugui.penup()
-# wugui.goto(-60,400)
-# wugui.color("blue")
-# wugui.pendown()
-# wugui.forward(20)
-
-# wugui.penup()
-# wugui.goto(-30,400)
-# wugui.color("yellow")
-# wugui.pendown()
-# wugui.forward(20)
-
-# wugui.penup()
-# wugui.goto(0,400)
-# wugui.color("green")
-# wugui.pendown()
-# wugui.forward(20)
-
-# wugui.penup()
-# wugui.goto(30,400)
-# wugui.color("purple")
-# wugui.pendown()
-# wugui.forward(20)
-
-# wugui.exitonclick()            
-            
-            
-            
-            
-            
-            
-            
-            
             
             
             
